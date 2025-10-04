@@ -3,7 +3,7 @@ description: "AI-powered delivery insights, leadership notes, and practical auto
 url: "https://rcube9.github.io"
 baseurl: "/ProAIInsights"   # project site path; keep this
 remote_theme: just-the-docs/just-the-docs
-color_scheme: dark          # dark mode
+#color_scheme: dark          # dark mode
 search_enabled: true
 heading_anchors: true
 logo: "/ProAIInsights/assets/hero.png"   # optional
