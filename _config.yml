@@ -14,4 +14,4 @@ url: "https://rcube9.github.io"
 baseurl: "/ProAIInsights"   # important for project sites
 permalink: /posts/:title/
 header_pages:
-  - posts.md
+  - blog.md
