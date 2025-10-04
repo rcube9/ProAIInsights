@@ -1,4 +1,13 @@
-title: Rajesh RR
-theme: jekyll-theme-minimal   # or: jekyll-theme-cayman, jekyll-theme-midnight, minima
+title: "Rajesh RR — Delivery, AI & Automation"
+description: "AI-powered delivery insights, leadership notes, and practical automation."
+theme: minima           # or jekyll-theme-cayman / jekyll-theme-midnight
 logo: /assets/hero.png   # optional
 show_downloads: false
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+  - jekyll-sitemap
+author:
+  name: "Rajesh RR"
+  url: "https://www.linkedin.com/in/rajeshrr/"
+url: "https://rcube9.github.io"   # change this
