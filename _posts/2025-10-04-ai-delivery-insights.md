@@ -5,7 +5,7 @@ description: "How I automated weekly delivery insights—faster closes, steadier
 tags: [AI, Engineering Leadership, Jira, Python, Automation, SLA]
 ---
 
-From Spreadsheets to Smart Insights: How I’m Using AI to Keep Teams Focused, SLAs Healthy, and Weekends Free
+# Title From Spreadsheets to Smart Insights: How I’m Using AI to Keep Teams Focused, SLAs Healthy, and Weekends Free
 
 For years, delivery leaders have had to choose between two imperfect options: spend hours assembling status reports, or fly blind and react when things slip. Neither scales, and both erode the team’s focus and work-life balance.
 
