@@ -1,2 +1,4 @@
-title: "Rajesh RR"
+title: Rajesh RR
 theme: jekyll-theme-minimal   # or: jekyll-theme-cayman, jekyll-theme-midnight, minima
+logo: /assets/hero.png   # optional
+show_downloads: false
