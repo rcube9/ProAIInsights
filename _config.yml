@@ -1,9 +1,10 @@
 title: "Rajesh RR — Delivery, AI & Automation"
 description: "AI-powered delivery insights, leadership notes, and practical automation."
-theme: minima           # or jekyll-theme-cayman / jekyll-theme-midnight
+theme: minimal-mistakes-jekyll           # or jekyll-theme-cayman / jekyll-theme-midnight
 logo: /assets/hero.png   # optional
 show_downloads: false
 plugins:
+  - jekyll-include-cache
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-sitemap
@@ -12,4 +13,5 @@ author:
   url: "https://www.linkedin.com/in/rajeshrr/"
 url: "https://rcube9.github.io"
 baseurl: "/ProAIInsights"   # important for project sites
+remote_theme: "mmistakes/minimal-mistakes"
 permalink: /posts/:title/
