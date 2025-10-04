@@ -1,17 +1,19 @@
 title: "Rajesh RR — Delivery, AI & Automation"
 description: "AI-powered delivery insights, leadership notes, and practical automation."
-theme: minima           # or jekyll-theme-cayman / jekyll-theme-midnight
-logo: /assets/hero.png   # optional
-show_downloads: false
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
-  - jekyll-sitemap
-author:
-  name: "Rajesh RR"
-  url: "https://www.linkedin.com/in/rajeshrr/"
 url: "https://rcube9.github.io"
-baseurl: "/ProAIInsights"   # important for project sites
-permalink: /posts/:title/
-header_pages:
-  - blog.md
+baseurl: "/ProAIInsights"   # project site path; keep this
+remote_theme: just-the-docs/just-the-docs
+color_scheme: dark          # dark mode
+search_enabled: true
+heading_anchors: true
+logo: "/ProAIInsights/assets/hero.png"   # optional
+
+# Top-right header links (optional)
+aux_links:
+  LinkedIn:
+    - "https://www.linkedin.com/in/rajeshrr/"
+  Blog (classic list):
+    - "https://rcube9.github.io/ProAIInsights/posts/ai-delivery-insights/"
+
+# Footer small print
+footer_content: "© 2025 Rajesh RR — Pro AI Insights"
