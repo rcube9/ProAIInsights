@@ -29,27 +29,27 @@ I designed a pipeline that:
 
 2. **Cleans & enriches** it (safe timezone handling, “days in status,” start/end windows, consistent owner mapping).
 
-Summarizes into decision-ready views (trend snapshots, Gantt-style timelines, dev/QA split windows, and ready-to-share HTML/Excel).
+3. **Summarizes** into decision-ready views (trend snapshots, Gantt-style timelines, dev/QA split windows, and ready-to-share HTML/Excel).
 
-Delivers on schedule to the people who need it—without anyone asking.
+4. **Delivers** on schedule to the people who need it—without anyone asking.
 
-Why AI? AI helps in two places:
+**Why AI?** AI helps in two places:
 
-Triage & classification of issue narratives (bug-like / feature-request / how-to / concern) so attention goes where it matters.
+- **Triage & classification** of issue narratives (bug-like / feature-request / how-to / concern) so attention goes where it matters.
 
-Narrative summaries (“what changed this week”) to replace 30 minutes of scanning with a 30-second brief.
+- **Narrative summaries** (“what changed this week”) to replace 30 minutes of scanning with a 30-second brief.
 
-What Leaders See (and Use) Every Week
+## What Leaders See (and Use) Every Week
 
-Weekly pulse with context: What moved, where cycle time is improving, and where it’s slowing—without naming/shaming.
+- **Weekly pulse with context:** What moved, where cycle time is improving, and where it’s slowing—without naming/shaming.
 
-Effort windows that map to reality: Developer vs QA phases visualized clearly (including CIT loops where relevant).
+- **Effort windows that map to reality:** Developer vs QA phases visualized clearly (including CIT loops where relevant).
 
-Risk radar: Items parked too long, repeated reopen/fail cycles, and cross-team dependencies that need a nudge.
+- **Risk radar:** Items parked too long, repeated reopen/fail cycles, and cross-team dependencies that need a nudge.
 
-Capacity signals: Who’s overloaded, who’s under-utilized, and where we can rebalance early.
+- **Capacity signals:** Who’s overloaded, who’s under-utilized, and where we can rebalance early.
 
-One-click drill-downs: From high-level graphs to the exact issue trail, when someone needs the details.
+- **One-click drill-downs:** From high-level graphs to the exact issue trail, when someone needs the details.
 
 Impact (in practical terms)
 
