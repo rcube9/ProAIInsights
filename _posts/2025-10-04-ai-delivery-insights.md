@@ -7,27 +7,27 @@ tags: [AI, Engineering Leadership, Jira, Python, Automation, SLA]
 
 # From Spreadsheets to Smart Insights: How I’m Using AI to Keep Teams Focused, SLAs Healthy, and Weekends Free
 
-##For years, delivery leaders have had to choose between two imperfect options: spend hours assembling status reports, or fly blind and react when things slip. Neither scales, and both erode the team’s focus and work-life balance.
+For years, delivery leaders have had to choose between two imperfect options: spend hours assembling status reports, or fly blind and react when things slip. Neither scales, and both erode the team’s focus and work-life balance.
 
-Over the past few months I’ve built (and now run) an AI-assisted reporting pipeline that turns raw activity data into actionable insights in minutes—on a reliable cadence. The outcome: measurably faster turnaround, healthier SLA adherence, and calmer teams. Our leadership reviews run on these insights, and clients have started referencing them in their own planning. This post shares the why, the how, and the impact.
+Over the past few months I’ve built (and now run) an AI-assisted reporting pipeline that turns raw activity data into **actionable insights in minutes**—on a reliable cadence. The outcome: **measurably faster turnaround**, healthier SLA adherence, and calmer teams. Our leadership reviews run on these insights, and clients have started referencing them in their own planning. This post shares the why, the how, and the impact.
 
-The Problem I Wanted to Solve
+## The Problem I Wanted to Solve
 
-Signal vs. noise: Tools generate events, not decisions. Leaders need “what changed, why it matters, what to do next.”
+- **Signal vs. noise**: Tools generate events, not decisions. Leaders need “what changed, why it matters, what to do next.”
 
-Time drain: Manually stitching Jira, PRs, comments, and dates translates to late nights and stale views.
+- **Time drain**: Manually stitching Jira, PRs, comments, and dates translates to late nights and stale views.
 
-Uneven visibility: Without slice-and-dice by team, owner, status history, or cycle phases, we miss early risks.
+- **Uneven visibility**: Without slice-and-dice by team, owner, status history, or cycle phases, we miss early risks.
 
-Human cost: When reporting is a scramble, teams pay with context switching and lost downtime.
+- **Human cost**: When reporting is a scramble, teams pay with context switching and lost downtime.
 
-The Approach: Automate the Boring, Amplify the Useful
+## The Approach: Automate the Boring, Amplify the Useful
 
 I designed a pipeline that:
 
-Collects the right data at a sensible interval (issues, owners, status history, comments metadata).
+1. **Collects** the right data at a sensible interval (issues, owners, status history, comments metadata).
 
-Cleans & enriches it (safe timezone handling, “days in status,” start/end windows, consistent owner mapping).
+2. **Cleans & enriches** it (safe timezone handling, “days in status,” start/end windows, consistent owner mapping).
 
 Summarizes into decision-ready views (trend snapshots, Gantt-style timelines, dev/QA split windows, and ready-to-share HTML/Excel).
 
