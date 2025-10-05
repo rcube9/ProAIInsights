@@ -11,8 +11,6 @@ For years, delivery leaders have had to choose between two imperfect options: sp
 
 Over the past few months I’ve built (and now run) an AI-assisted reporting pipeline that turns raw activity data into **actionable insights in minutes**—on a reliable cadence. The outcome: **measurably faster turnaround**, healthier SLA adherence, and calmer teams. Our leadership reviews run on these insights, and clients have started referencing them in their own planning. This post shares the why, the how, and the impact.
 
-{{ "/assets/JiraStatus.png" | relative_url }}
-
 ![Gantt snapshot showing dev/QA windows]({{ "/assets/JiraStatus.png" | relative_url }})
 
 ## The Problem I Wanted to Solve
@@ -55,59 +53,59 @@ I designed a pipeline that:
 
 - **One-click drill-downs:** From high-level graphs to the exact issue trail, when someone needs the details.
 
-Impact (in practical terms)
+## Impact (in practical terms)
 
-Faster resolution without heroics: Managers intervene earlier because drift is visible sooner.
+- **Faster resolution without heroics:** Managers intervene earlier because drift is visible sooner.
 
-Smoother SLA compliance: Fewer last-minute scrambles; exceptions are handled deliberately, not reactively.
+- **Smoother SLA compliance:** Fewer last-minute scrambles; exceptions are handled deliberately, not reactively.
 
-Happier teams: Less manual reporting, fewer late-night “what’s the status?” pings, and clearer priorities.
+- **Happier teams:** Less manual reporting, fewer late-night “what’s the status?” pings, and clearer priorities.
 
-Stronger stakeholder trust: C-level and client partners reference the same single source of truth, which keeps conversations objective.
+- **Stronger stakeholder trust:** C-level and client partners reference the same single source of truth, which keeps conversations objective.
 
-(Intentionally avoiding hard numbers; results vary by team and month. The consistent pattern: noticeable reduction in avoidable delays and clearer, calmer delivery.)
+*(Intentionally avoiding hard numbers; results vary by team and month. The consistent pattern: noticeable reduction in avoidable delays and clearer, calmer delivery.)*
 
-What Powers It (at a Glance)
+## What Powers It (at a Glance)
 
-Data: Work items, owners (dev & QA), status history, transitions, comments metadata.
+- **Data:** Work items, owners (dev & QA), status history, transitions, comments metadata.
 
-Logic: Clean status windows, map hand-offs, calculate “days in status,” detect loops, and tag high-attention items.
+- **Logic:** Clean status windows, map hand-offs, calculate “days in status,” detect loops, and tag high-attention items.
 
-AI assists: Lightweight text classification + weekly summaries; guardrails prevent overreach.
+- **AI assists:** Lightweight text classification + weekly summaries; guardrails prevent overreach.
 
-Outputs: Interactive HTML timelines/dashboards and XLSX extracts for pivoting.
+- **Outputs:** Interactive HTML timelines/dashboards and XLSX extracts for pivoting.
 
-Cadence: Runs on a schedule; leaders get links & attachments before key stand-ups and reviews.
+- **Cadence:** Runs on a schedule; leaders get links & attachments before key stand-ups and reviews.
 
-Governance & Guardrails
+## Governance & Guardrails
 
-Privacy first: No confidential content leaves our boundary; only metadata is processed for automation.
+- **Privacy first:** No confidential content leaves our boundary; only metadata is processed for automation.
 
-Explainability: Every insight traces back to an issue history; no “black-box” decisions.
+- **Explainability:** Every insight traces back to an issue history; no “black-box” decisions.
 
-Human-in-the-loop: AI flags patterns; managers make the decisions. Always.
+- **Human-in-the-loop:** AI flags patterns; managers make the decisions. Always.
 
-Lessons Learned
+## Lessons Learned
 
-Automate questions, not just charts. “What changed?” is more valuable than “what’s the count?”
+- **Automate questions, not just charts.** “What changed?” is more valuable than “what’s the count?”
 
-Consistency beats intensity. A dependable weekly rhythm outperforms sporadic “big” reports.
+- **Consistency beats intensity.** A dependable weekly rhythm outperforms sporadic “big” reports.
 
-Design for hand-offs. Visualizing dev ↔ QA windows closes the gap between “done for me” and “ready for you.”
+- **Design for hand-offs.** Visualizing dev ↔ QA windows closes the gap between “done for me” and “ready for you.”
 
-Keep it boring (on purpose). Stable, predictable reporting calms the org. That’s the point.
+- **Keep it boring (on purpose).** Stable, predictable reporting calms the org. That’s the point.
 
-What’s Next
+## What’s Next
 
-Proactive nudges: Light, respectful reminders when something risks slipping (owner-aware, not spammy).
+- **Proactive nudges:** Light, respectful reminders when something risks slipping (owner-aware, not spammy).
 
-Cross-team dependency heatmaps: Make bottlenecks obvious before they block releases.
+- **Cross-team dependency heatmaps:** Make bottlenecks obvious before they block releases.
 
-Selectable lenses: Exec lens (outcomes), Manager lens (risks & actions), Team lens (personal workload & focus).
+- **Selectable lenses:** Exec lens (outcomes), Manager lens (risks & actions), Team lens (personal workload & focus).
 
-Closing Thought
+## Closing Thought
 
-Great teams shouldn’t have to choose between meeting SLAs and having a life. With a small dose of AI and a lot of disciplined engineering, we can have both: fewer surprises, faster closes, and more evenings at home.
+Great teams shouldn’t have to choose between meeting SLAs and having a life. With a small dose of AI and a lot of disciplined engineering, we can have both: **fewer surprises, faster closes, and more evenings at home**.
 
 If you’re exploring similar automation—or want to compare notes on making analytics truly useful—I’m happy to connect.
 
