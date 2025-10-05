@@ -3,6 +3,7 @@ layout: post
 title: "From Spreadsheets to Smart Insights: AI for SLA-Safe, Calmer Delivery"
 description: "How I automated weekly delivery insights—faster closes, steadier SLAs, and better work-life balance."
 tags: [AI, Engineering Leadership, Jira, Python, Automation, SLA]
+canonical_url: "https://rcube9.github.io/ProAIInsights/2025/10/04/ai-delivery-insights.html"
 ---
 
 # From Spreadsheets to Smart Insights: How I’m Using AI to Keep Teams Focused, SLAs Healthy, and Weekends Free
