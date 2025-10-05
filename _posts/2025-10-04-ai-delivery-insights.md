@@ -11,6 +11,10 @@ For years, delivery leaders have had to choose between two imperfect options: sp
 
 Over the past few months I’ve built (and now run) an AI-assisted reporting pipeline that turns raw activity data into **actionable insights in minutes**—on a reliable cadence. The outcome: **measurably faster turnaround**, healthier SLA adherence, and calmer teams. Our leadership reviews run on these insights, and clients have started referencing them in their own planning. This post shares the why, the how, and the impact.
 
+{{ "/assets/JiraStatus.png" | relative_url }}
+
+![Gantt snapshot showing dev/QA windows]({{ "/assets/JiraStatus.png" | relative_url }})
+
 ## The Problem I Wanted to Solve
 
 - **Signal vs. noise**: Tools generate events, not decisions. Leaders need “what changed, why it matters, what to do next.”
